@@ -1,15 +1,14 @@
-# Busca Imóveis
+# Busca Bike
 
-Sistema voltado para agregação de anúncios de imóveis. Alguns dos serviços coletados no momento são:
+Sistema voltado para agregação de anúncios de bicicletas vendidas em serviços como:
 
  - OLX
 
 Em breve para os seguintes serviços:
 
- - ZAP Imóveis
- - Viva Real
+ - Mercado Livre
 
-Todos os anúncios são coletados via crawling usando o [Busca Imóveis Scraper](https://github.com/gilsondev/buscaimoveis-scraper).
+Todos os anúncios são coletados via crawling usando o [Busca Bike Scraper](https://github.com/rochacbruno/buscabike-scraper).
 
 
 ## Instalação
@@ -17,7 +16,7 @@ Todos os anúncios são coletados via crawling usando o [Busca Imóveis Scraper]
 Faça o checkout do projeto:
 
 ```shell
-$ git clone https://github.com/gilsondev/buscaimoveis
+$ git clone https://github.com/rochacbruno/buscabike
 ```
 
 Prepare o ambiente com virtualenv e instale as dependências:
@@ -31,7 +30,7 @@ $ make install
 Então inicie o servidor local:
 
 ```shell
-$ bimoveis runserver
+$ bike runserver
 ```
 
 ## Testes
@@ -61,11 +60,11 @@ Targets:
 ```
 
 ```shell
-$ bimoveis
+$ bike
 
-Usage: bimoveis [OPTIONS] COMMAND [ARGS]...
+Usage: bike [OPTIONS] COMMAND [ARGS]...
 
-  Busca Imóveis APP
+  Busca Bike APP
 
 Options:
   --help  Show this message and exit.
@@ -77,3 +76,7 @@ Commands:
 
 ## Como Contribuir
 Veja mais no arquivo `CONTRIBUTING.md`, as formas de ajudar com o projeto, e o `AUTHORS.md` para saber quem estão a frente e que pode te auxiliar.
+
+## Sobre a logo
+
+A logo usada foi encontrado no serviço [Icon Finder](https://www.iconfinder.com/) e está sob a licença GPL. Mais detalhes sobre as licenças dos ícones, veja no [site do serviço](https://docs.google.com/spreadsheets/u/1/d/1E8X2_xmJkkoeZwa1HPNG6jT3ytAZlcAgzTDRX0jDF-Q/pubhtml?gid=0&single=true).

@@ -1,6 +1,6 @@
 {
-  "short_name": "BuscaImoveis",
-  "name": "Busca Imóveis",
+  "short_name": "Busca Bike",
+  "name": "Busca Bike",
   "icons": [
     {
       "src": "/static/img/logo_48.png",
@@ -19,8 +19,8 @@
     }
   ],
   "start_url": "/?utm_source=homescreen",
-  "theme_color": "#5fbcd3",
-  "background_color": "#5fbcd3",
+  "theme_color": "#76c2af",
+  "background_color": "#76c2af",
   "display": "standalone",
   "orientation": "portrait"
 }

@@ -8,7 +8,7 @@ Você pode contribuir das seguintes formas:
 
 Reportando erros
 
-Reporte os problemas em [Issues](https://github.com/gilsondev/buscaimoveis/issues)
+Reporte os problemas em [Issues](https://github.com/rochacbruno/buscabike/issues)
 
 Se você reportar um bug, por favor inclua:
 
@@ -33,7 +33,7 @@ Fica aberto também a criação de tutoriais e posts pela web, relacionado ao pr
 
 ### Enviando seu feedback
 
-A melhor forma de enviar feedback é por meio das [Issues](https://github.com/gilsondev/buscaimoveis/issues).
+A melhor forma de enviar feedback é por meio das [Issues](https://github.com/rochacbruno/buscabike/issues).
 
 Se você propôr uma nova funcionalidade:
 

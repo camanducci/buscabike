@@ -7,7 +7,7 @@
     <!-- Search Field -->
     <div class="row">
         <a href="{{ url_for('ads.index') }}">
-            <h1 class="text-center">Busca Imóveis</h1>
+            <h1 class="text-center">Busca Bike</h1>
         </a>
         <div class="form-group">
             <div class="col-md-10">
@@ -35,7 +35,6 @@
                                 <p><strong>Valor: </strong>{{ sell.price | default('Sem valor', True) }}</p>
                                 <p><strong>Bairro: </strong>{{ sell.district | default('Sem bairro', True) }}</p>
                                 <p><strong>Cidade: </strong>{{ sell.city | default('Sem cidade', True) }}</p>
-                                <p><strong>Área: </strong>{{ sell.area | default('Sem área', True) }}</p>
                             </div>
                             <div>
                                 <p><strong>Proprietário(a): </strong> {{sell.owner | default('Sem nome', True)}}</p>

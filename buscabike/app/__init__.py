@@ -1,9 +1,9 @@
 from flask import Flask
 
-from buscaimoveis import config, ext
+from buscabike import config, ext
 
 
-def create_app(import_name='buscaimoveis'):
+def create_app(import_name='buscabike'):
     app = Flask(import_name)
 
     # Configuration

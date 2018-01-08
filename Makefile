@@ -10,10 +10,10 @@ clean: ## remove Python file artifacts
 	find . -name '__pycache__' -exec rm -fr {} +
 
 pep8: ## check style with flake8
-	flake8 buscaimoveis tests
+	flake8 buscabike tests
 
 test: pep8 ## run tests quickly with the default Python
 	python setup.py test
 
-install: clean test ## install the package to the active Python's site-packages
+install: ## install the package to the active Python's site-packages
 	python setup.py develop
