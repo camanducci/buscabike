@@ -5,6 +5,6 @@ def configure(app):
     """Configure Dynaconf Flask Extension"""
     FlaskDynaconf(
         app=app,
-        DYNACONF_NAMESPACE='BUSCAIMOVEIS',
+        DYNACONF_NAMESPACE='BUSCABIKE',
         SETTINGS_MODULE=f'{app.root_path}/settings.yml'
     )

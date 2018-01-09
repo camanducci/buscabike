@@ -6,17 +6,17 @@ from flask_testing import TestCase, LiveServerTestCase
 
 from selenium import webdriver
 
-from buscaimoveis.app import create_app
+from buscabike.app import create_app
 from tests.fixtures import ads_fixture_data
 
 
 def _prepare_test_app():
-        app = create_app()
-        app.db = MongoClient().db
+    app = create_app()
+    app.db = MongoClient().db
 
-        ads_fixture_data(app.db)
+    ads_fixture_data(app.db)
 
-        return app
+    return app
 
 
 class TestBase(TestCase):

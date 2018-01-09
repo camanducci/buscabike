@@ -1,14 +1,14 @@
 import code
 import click
 
-from buscaimoveis.app import create_app
+from buscabike.app import create_app
 
 app = create_app(__name__)
 
 
 @click.group()
 def main():
-    """Busca Imóveis APP"""
+    """Busca Bike APP"""
     pass
 
 
@@ -20,7 +20,7 @@ def shell():
             from IPython import start_ipython
             start_ipython(argv=[], user_ns={'app': app})
         except:
-            code.interact(banner='Busca Imóveis', local={'app': app})
+            code.interact(banner='Busca Bike', local={'app': app})
 
 
 @main.command()

@@ -1,18 +1,18 @@
-BUSCAIMOVEIS:
+BUSCABIKE:
   DEBUG: false
   RELOADER: true
   SECRET_KEY: 's3cret'
   HOST: '0.0.0.0'
   PORT: 5000
   DATABASE_URL: 'mongodb://localhost:27017'
-  DATABASE_NAME: buscaimoveis
+  DATABASE_NAME: buscabike
 
   EXTENSIONS:
-    - buscaimoveis.ext.database.configure
-    - buscaimoveis.ext.auth.configure
-    - buscaimoveis.ext.analytics.configure
-    - buscaimoveis.ext.debug.configure
-    - buscaimoveis.ext.ads.configure
+    - buscabike.ext.database.configure
+    - buscabike.ext.auth.configure
+    - buscabike.ext.analytics.configure
+    - buscabike.ext.debug.configure
+    - buscabike.ext.ads.configure
     - flask_bootstrap.Bootstrap
 
   ANALYTICS_ENABLED: false

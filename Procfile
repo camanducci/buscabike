@@ -1,1 +1,1 @@
-web: gunicorn buscaimoveis.wsgi
+web: gunicorn buscabike.wsgi

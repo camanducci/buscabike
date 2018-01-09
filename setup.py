@@ -12,7 +12,7 @@ requirements = [
     'dynaconf==0.5.2',
     'gunicorn==19.7.1',
     'import-string==0.1.0',
-    'pymongo==3.5.1',
+    'pymongo==3.6.0',
     'PyYAML==3.12'
 ]
 
@@ -35,17 +35,17 @@ class PostDevelopCommand(develop):
 
 
 setup(
-    name='buscaimoveis',
+    name='buscabike',
     version='0.0.1',
-    description="Centralize home ads",
-    author="Gilson Filho",
-    author_email='me@gilsondev.in',
-    url='https://github.com/gilsondev/buscaimoveis',
-    packages=['buscaimoveis'],
-    package_dir={'buscaimoveis': 'buscaimoveis'},
+    description="Centralize bike ads",
+    author="Bruno Rocha",
+    author_email='rochacbruno@gmail.com',
+    url='https://github.com/rochacbruno/buscabike',
+    packages=['buscabike'],
+    package_dir={'buscabike': 'buscabike'},
     entry_points={
         'console_scripts': [
-            'bimoveis=buscaimoveis.cli:main'
+            'bike=buscabike.cli:main'
         ]
     },
     cmdclass={
